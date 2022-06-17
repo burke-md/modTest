@@ -1,0 +1,29 @@
+{
+  "name": "solprojtemplate",
+  "version": "1.0.0",
+  "description": "Template for solidity projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burke-md/solProjTemplate.git"
+  },
+  "author": "MB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burke-md/solProjTemplate/issues"
+  },
+  "homepage": "https://github.com/burke-md/solProjTemplate#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "@openzeppelin/contracts": "^4.6.0",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.1",
+    "ethers": "^5.6.8",
+    "hardhat": "^2.9.7",
+    "hardhat-gas-reporter": "^1.0.8",
+    "solidity-coverage": "^0.7.21"
+  }
+}
