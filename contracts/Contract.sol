@@ -30,7 +30,7 @@ contract Contract {
     }
 
     function addTwo() public onlyAddTwo {
-        stateValue += 2;
+        stateValue = stateValue + 2;
     }
 
     function addThree() public onlyAddThree {
