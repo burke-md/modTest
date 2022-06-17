@@ -8,7 +8,12 @@ contract Contract {
 
     uint8 public stateValue = 0;
 
-    function addOne() public {
+    modifier onlyTrue {
+        require(true);
+        _;
+    }
+
+    function addOne() public onlyTrue {
         stateValue += 1;
     }
 
