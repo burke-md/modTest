@@ -26,3 +26,5 @@ After experimenting and writting a few tests I discovered the answers:
 Other take aways:
 - Multiple modifiers will be evaluated in the order they listed.
 - The `_;` can be used (and will cause the body of the function to be run) multiple times within a single modifier.
+
+![Screen Shot 2022-06-16 at 11 27 15 PM](https://user-images.githubusercontent.com/22263098/174219021-a7dbc204-2d59-4c99-ab4b-6d431cec692e.png)
